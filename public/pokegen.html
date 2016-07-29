@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#D32F2F">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Pokedex App</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link href="img/favicon.ico" rel='icon' type='image/x-icon'/>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <!-- NavBar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa fa-dot-circle-o"></i> Pokédex</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href=""><span class="fa fa-crosshairs"></span> Scan</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="fa fa-search"></span> Search</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <form class="navbar-form">
+                      <input type="text" class="form-control" placeholder="Search...">
+                    </form>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="row">
+
+        <!-- Pokemon Card -->
+        <div class="col-xs-12">
+          <div class="pokemon-card">
+            <img src="img/001.png">
+            <div class="pokemon-info">
+              <div class="row">
+
+              <!-- Details -->
+              <div class="col-sm-6 text-center">
+                <p class="pokedex-id">#001</p>
+                <h1>Bulbasaur</h1>
+                <ul class="list list-inline">
+                  <li><span class="badge grass">Grass</span></li>
+                  <li><span class="badge poison">Poison</span></li>
+                </ul>
+                <div class="pokemon-physical">
+                  <h3>Height: 7 ft</h3>
+                  <h3>Weight: 6.9 kgs</h3>
+                </div>
+                <hr>
+              </div>
+
+              <!-- Stats -->
+              <div class="col-sm-6">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Stats</h3>
+                  </div>
+                  <div class="panel-body">
+                    <h5>Speed</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"><span class="sr-only">Speed</span></div>
+                    </div>
+                    <h5>Special Defense</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><span class="sr-only">Special Defense</span></div>
+                    </div>
+                    <h5>Special Attack</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><span class="sr-only">Special Attack</span></div>
+                    </div>
+                    <h5>Defense</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100" style="width: 49%"><span class="sr-only">Defense</span></div>
+                    </div>
+                    <h5>Attack</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100" style="width: 49%"><span class="sr-only">Attack</span></div>
+                    </div>
+                    <h5>HP</h5>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"><span class="sr-only">HP</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

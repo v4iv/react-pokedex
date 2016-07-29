@@ -1,0 +1,32 @@
+{
+  "name": "react-pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex Powered by React JS and Twitter Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/pk8n_r34kt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "history": "^2.0.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.6.0",
+    "reflux": "^0.4.1",
+    "watchify": "^3.7.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v4iv/react-pokedex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/v4iv/react-pokedex/issues"
+  },
+  "homepage": "https://github.com/v4iv/react-pokedex#readme"
+}
