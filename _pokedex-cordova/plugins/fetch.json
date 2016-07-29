@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Users\\Vaibhav Sharma\\AppData\\Local\\Intel\\XDK\\xdk\\components\\server\\cordova\\cordova-plugins\\cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

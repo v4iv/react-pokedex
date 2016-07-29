@@ -1,0 +1,20 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "currentService": {
+      "service": "google_analytics"
+    }
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "build-tab": {
+    "selectedTargets": [
+      "CORDOVA_ANDROID"
+    ]
+  }
+}

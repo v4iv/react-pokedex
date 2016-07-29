@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import 'https://fonts.googleapis.com/css?family=Orbitron';
+
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    font: 400 15px/2 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+body {
+    padding-top: 72px;
+    padding-bottom: 20px;
+}
+
+/* Nav Bar */
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background-color: #F44336;
+    letter-spacing: 2px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-nav li a:hover {
+    color: gray;
+}
+
+/* End Nav Bar */
+
+/* Pokemon Type Badge */
+.grass {
+    background-color: limegreen;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.water {
+    background-color: mediumblue;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.bug {
+    background-color: forestgreen;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.poison {
+    background-color: rebeccapurple;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.electric {
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.ghost {
+    background-color: lightgrey;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.ground {
+    background-color: #eea236;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.ice {
+    background-color: lightblue;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.normal {
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.rock {
+    background-color: saddlebrown;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.flying {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.psychic {
+    background-color: blueviolet;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.fighting {
+    background-color: brown;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.fire {
+    background-color: orange;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.dark {
+    background-color: darkslategrey;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.dragon {
+    background-color: darkred;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.steel {
+    background-color: darkgray;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.fairy {
+    background-color: pink;
+    text-transform: uppercase;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+/* End Pokemon Type Badge */
+
+/* Pokemon Info Cards */
+.pokemon-card {
+    margin: 10px 0 0 0;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.pokemon-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.pokemon-card h1 {
+    text-transform: capitalize;
+}
+
+.pokemon-card > .pokemon-info {
+    background: white;
+    padding: 1em;
+}
+
+/* End Pokemon Info Cards */
