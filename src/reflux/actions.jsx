@@ -1,7 +1,9 @@
 var Reflux = require('reflux');
 
 var Actions = Reflux.createActions([
-    'getPokemon'
+  'getPokedex',
+  'getPokemon',
+  'sort'
 ]);
 
 module.exports = Actions;

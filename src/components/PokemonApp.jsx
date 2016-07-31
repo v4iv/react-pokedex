@@ -32,15 +32,11 @@ var PokemonApp = React.createClass({
     });
   },
   componentWillMount: function (){
-    var pokemonID = Math.floor((Math.random() * 721) + 1);
-    Actions.getPokemon(pokemonID);
+    Actions.sort("Lowest Number First");
+    Actions.getPokemon(this.props.params.pokemonId);
   },
   onChange: function (event, data) {
-    this.setState({pokemon: data});
-  },
-  handleScan: function (){
-    var surprise = Math.floor((Math.random() * 721) + 1);
-    Actions.getPokemon(pokemonID);
+    this.setState({pokemon: data, loading: false});
   },
   handleSearch: function(query) {
     Actions.getPokemon(query);
@@ -59,12 +55,12 @@ var PokemonApp = React.createClass({
     return (
       <div>
         <NavBar>
-          <ScanBox onClick={this.handleScan} style={scanPointer}/>
+          <ScanBox scanUrl={"/pokemon/" + Math.floor((Math.random() * 721) + 1)} style={scanPointer}/>
           <SearchBox onNewSearch={this.handleSearch}/>
         </NavBar>
         <div className="col-xs-12">
           <div className="pokemon-card">
-            <img src={this.state.pokemon.imgURL}/>
+            <img src={this.state.pokemon.imgURL} alt={this.state.pokemon.name}/>
             <div className="pokemon-info">
               <div className="row">
 

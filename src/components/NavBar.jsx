@@ -11,7 +11,7 @@ var NavBar = React.createClass({
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#"><i className="fa fa-dot-circle-o"></i> Pokédex</a>
+            <a className="navbar-brand" href="#/"><i className="fa fa-dot-circle-o"></i> Pokédex</a>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav navbar-right">
